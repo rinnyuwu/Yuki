@@ -27,7 +27,7 @@ class ServerInfo(commands.Cog):
         media_channels = len([c for c in guild.channels if isinstance(c, disnake.TextChannel) and c.is_news()])
         active_threads = len([t for t in guild.threads if isinstance(t, disnake.Thread) and not t.archived])
 
-        embed = disnake.Embed(color=0x0099FF)
+        embed = disnake.Embed(color=0x2196F3)
         embed.set_author(name="Server information", icon_url=guild.icon.url if guild.icon else None)
         embed.description = (
             f" - Name: **{guild.name}**\n"
