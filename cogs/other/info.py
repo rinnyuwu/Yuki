@@ -9,7 +9,7 @@ class Info(commands.Cog):
     async def info(self, inter: disnake.AppCmdInter):
         embed = disnake.Embed(
             description="I'm your friendly bot, always here to help with tasks on the server 🤍",
-            color=0x0099FF
+            color=0x2196F3
         )
         embed.set_author(name="Bot info", icon_url=self.bot.user.avatar.url)
         embed.add_field(name="Features", value="Sadly, I don't do much yet...", inline=False)
