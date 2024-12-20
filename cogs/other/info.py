@@ -13,7 +13,7 @@ class Info(commands.Cog):
         )
         embed.set_author(name="Bot info", icon_url=self.bot.user.avatar.url)
         embed.add_field(name="Features", value="Sadly, I don't do much yet...", inline=False)
-        embed.set_footer(text=f"Developer: rinny.uwu\nVersion: 2.3.0\nBot ID: {self.bot.user.id}")
+        embed.set_footer(text=f"Developer: rinny.uwu\nVersion: 2.6.0\nBot ID: {self.bot.user.id}")
         await inter.send(embed=embed, ephemeral=True)
 
 def setup(bot):
